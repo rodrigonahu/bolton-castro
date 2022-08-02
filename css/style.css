@@ -1,0 +1,495 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------INDEX---------------------*/
+
+/*----HEADER----*/
+
+header {
+    background-color: rgba(245, 245, 245, 0.77);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    width: 150px;
+    height: 150px;
+}
+
+.tituloUno {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+
+.headerIndex nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(158, 108, 71);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+/*----MAIN----*/
+
+/*----SECTION--UNO----*/
+
+.bolton {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( to bottom, white, rgb(210, 171, 156) );
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bolton h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bolton div {
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.bolton div img {
+    width: 300px;
+    height: 500px;
+}  
+
+.bolton div p {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bolton div a {
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+/*----SECTION--DOS----*/
+
+
+
+.winter h2 {
+    font-size: 35px;
+    color: rgb(40, 126, 201);
+    text-align: center;
+}
+
+.divGrilla {
+    width: 100%;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.winter div div img {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+}
+
+.winter div div {
+    width: 300px;
+    height: 500px;
+    
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    
+    background-image: linear-gradient( to left, white, rgb(207, 203, 234));
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.winter div div:hover {
+    width: 350px; 
+} 
+
+.winter div div h3 {
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.winter div div a {
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: whitesmoke;
+}
+
+.botonFixed img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+
+/*----FOOTER----*/
+
+footer {
+    background-color: rgb(30, 29, 29);
+}
+
+footer .mapa {
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+}
+
+.redSocial {
+    width: 50px;
+    height: 50px;
+}
+
+footer div ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+
+/*------------------------CONTACTO---------------------*/
+
+/*----HEADER----*/
+
+.headerContacto {
+    background-color: rgba(245, 245, 245, 0.889);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+
+/*----MAIN----*/
+
+.sectionContacto {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( to bottom, white, rgba(140, 189, 204, 0.889));
+    text-align: center;
+    line-height: 30px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formContacto {
+    letter-spacing: 5px;
+}
+
+.boton {
+    width: 80px;
+    border-radius: 1px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+/*----FOOTER----*/
+
+.footerContacto {
+    background-color: rgb(30, 29, 29);
+}
+
+.mapaContacto {
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+}
+
+.redsocialContacto {
+    width: 50px;
+    height: 50px;
+}
+
+.ulContacto {
+    list-style: none;
+    text-align: center;
+}
+
+.enlaceContacto {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+/*------------------------ACERCADE---------------------*/
+
+/*----HEADER----*/
+
+.headerAcerca {
+    background-color: rgba(245, 245, 245, 0.889);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+
+/*----MAIN----*/
+
+.sectionAcerca {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-image: linear-gradient( to bottom, white, rgba(140, 189, 204, 0.889));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloAcerca {
+    font-size: 40px;
+}
+
+.sectionAcerca div {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(181, 167, 167);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(245, 245, 245, 0.889);
+}
+
+/*----FOOTER----*/
+
+.footerAcerca {
+    background-color: rgb(30, 29, 29);
+}
+
+.mapaAcerca {
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+}
+
+.redsocialAcerca {
+    width: 50px;
+    height: 50px;
+}
+
+.ulAcerca {
+    list-style: none;
+    text-align: center;
+}
+
+.enlaceAcerca {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+
+/*------------------------PRODUCTOS---------------------*/
+
+/*----HEADER----*/
+
+.headerProduct {
+    background-color: rgba(245, 245, 245, 0.889);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+
+/*----MAIN----*/
+
+
+.sectionProduct {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-image: linear-gradient( to bottom, white, rgba(140, 189, 204, 0.889));
+}
+
+.tituloProduct {
+    font-size: 30px;
+}
+
+.sectionProduct div {
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    
+    background-image: linear-gradient( to right, rgba(121, 102, 51, 0.536), white );
+    transition: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+
+    transition: transform 2s ease;
+}
+
+.sectionProduct div:hover {
+    width: 350px;
+    transform: translateX(100px);
+}
+
+
+.sectionProduct div img {
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+
+.sectionProduct div a {
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+
+
+/*----FOOTER----*/
+
+.footerProduct {
+    background-color: rgb(30, 29, 29);
+}
+
+.mapaProduct {
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+}
+
+.redsocialProduct {
+    width: 50px;
+    height: 50px;
+}
+
+.ulProduct {
+    list-style: none;
+    text-align: center;
+}
+
+.enlaceProduct {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+
+
+/*------------------------SERVICIOS---------------------*/
+
+/*----HEADER----*/
+
+.headerServ {
+    background-color: rgba(245, 245, 245, 0.889);
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+
+/*----MAIN----*/
+
+.sectionServ {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-image: linear-gradient( to bottom, white, rgba(140, 189, 204, 0.889));
+}
+
+.sectionServ div ul {
+    list-style: none;
+    text-align: center;
+}
+
+.sectionServ div ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+
+/*----FOOTER----*/
+
+.footerServ {
+    background-color: rgb(30, 29, 29);
+}
+
+.mapaServ {
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+}
+
+.redsocialServ {
+    width: 50px;
+    height: 50px;
+}
+
+.ulServ {
+    list-style: none;
+    text-align: center;
+}
+
+.enlaceServ {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+
