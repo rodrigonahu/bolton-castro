@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
+
 <body>
     <header class="headerContacto">
         <nav>
@@ -21,42 +25,70 @@
         </nav>
     </header>
     <main class="mainContacto">
-        <section class="sectionContacto">
-            <form class="formContacto" action="">
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre">
+        <section class="formulario">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="inputEmail4">
                 </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Telefono</label>
+                    <input type="password" class="form-control" id="inputPassword4">
                 </div>
-                <div>
-                    <label for="contrasena">Contraseña</label>
-                    <input type="password" name="contrasena">
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="inputAddress">
                 </div>
-                <div>
-                    <label for="telefono">Telefono</label>
-                    <input type="text" name="telefono">
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Pais</label>
+                    <input type="text" class="form-control" id="inputAddress2">
                 </div>
-                <div>
-                    <p>Mensaje</p>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
                 </div>
-                <div>
-                    <input class="boton" type="submit">
-                    <input class="boton" type="reset">
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Barrio</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">C. Postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Confirmar
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-dark">Sign in</button>
                 </div>
             </form>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <footer class="footerContacto">
-        <iframe class="mapaContacto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.7927799166246!2d-64.1903708849234!3d-31.419834881402995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses!2sar!4v1656881275526!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="mapaContacto"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.7927799166246!2d-64.1903708849234!3d-31.419834881402995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses!2sar!4v1656881275526!5m2!1ses!2sar"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div>
-            <a href="https://es-la.facebook.com/"><img class="redsocialContacto" src="../img/facebook.png" alt="Facebook" target="_blank"></a>
-            <a href="https://www.instagram.com/"><img class="redsocialContacto" src="../img/instagram.png" alt="Instagram" target="_blank"></a>
-            <a href="https://twitter.com/"><img class="redsocialContacto" src="../img/twitter.png" alt="Twitter" target="_blank"></a>
-            <a href="https://www.whatsapp.com/"><img class="redsocialContacto" src="../img/whatsapp.png" alt="Whatsapp" target="_blank"></a>
+            <a href="https://es-la.facebook.com/"><img class="redsocialContacto" src="../img/facebook.png"
+                    alt="Facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/"><img class="redsocialContacto" src="../img/instagram.png"
+                    alt="Instagram" target="_blank"></a>
+            <a href="https://twitter.com/"><img class="redsocialContacto" src="../img/twitter.png" alt="Twitter"
+                    target="_blank"></a>
+            <a href="https://www.whatsapp.com/"><img class="redsocialContacto" src="../img/whatsapp.png" alt="Whatsapp"
+                    target="_blank"></a>
         </div>
         <div>
             <ul class="ulContacto">
@@ -68,4 +100,5 @@
         </div>
     </footer>
 </body>
+
 </html>
