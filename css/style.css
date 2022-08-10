@@ -59,6 +59,12 @@ header .logo {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 5px;
     font-weight: bold;
+
+    transition: 1s;
+}
+
+.headerIndex nav ul li a:hover{
+    font-size: 30px;
 }
 
 
@@ -129,6 +135,10 @@ header .logo {
     color: rgb(40, 126, 201);
     text-align: center;
 }
+
+.winter h2:hover{
+    color: darkviolet;
+} 
 
 .divGrilla {
     width: 100%;  
@@ -294,6 +304,12 @@ footer div ul li a {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 5px;
     font-weight: bold;
+
+    transition: 1s;
+}
+
+.headerContacto nav ul li a:hover{
+    font-size: 30px;
 }
 
 @media screen and (max-width:816px){
@@ -395,6 +411,12 @@ footer div ul li a {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 5px;
     font-weight: bold;
+
+    transition: 1s;
+}
+
+.headerAcerca nav ul li a:hover{
+    font-size: 30px;
 }
 
 @media screen and (max-width:816px){
@@ -426,6 +448,10 @@ footer div ul li a {
 
 .card-title {
     color: black;
+}
+
+.card-text:hover{
+    color: darkviolet;
 }
 
 .container-fluid {
@@ -526,6 +552,12 @@ footer div ul li a {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 5px;
     font-weight: bold;
+
+    transition: 1s;
+}
+
+.headerProduct nav ul li a:hover{
+    font-size: 30px;
 }
 
 @media screen and (max-width:816px){
@@ -664,6 +696,12 @@ footer div ul li a {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 5px;
     font-weight: bold;
+
+    transition: 1s;
+}
+
+.headerServ nav ul li a:hover{
+    font-size: 30px;
 }
 
 @media screen and (max-width:816px){
