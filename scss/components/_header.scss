@@ -1,0 +1,41 @@
+.headerIndex {
+    background-color: rgba(245, 245, 245, 0.77);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+    .tituloUno {
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    nav {
+        ul {
+            list-style: none;
+            padding: 10px 10px 10px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li {
+                a {
+                    text-decoration: none;
+                    color: rgb(158, 108, 71);
+                    font-size: 20px;
+                    font-family: 'Courier New', Courier, monospace;
+                    letter-spacing: 5px;
+                    font-weight: bold;
+                
+                    transition: 1s;
+                    &:hover{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+}
