@@ -1,0 +1,9 @@
+$header: (
+    bg-header: rgb(75, 75, 173),
+    position-header: static,
+);
+
+.header {
+    background-color: map-get($header, bg-header );
+    position: map-get($header , position-header );
+}

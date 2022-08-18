@@ -28,6 +28,10 @@
       .headerIndex nav ul li a:hover {
         font-size: 30px; }
 
+.header {
+  background-color: #4b4bad;
+  position: static; }
+
 main .bolton {
   width: 100%;
   height: 100vh;
@@ -131,3 +135,17 @@ main .winter .divGrilla {
       font-size: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       letter-spacing: 5px; }
+
+.divGrilla {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.divGrilla {
+  background-color: cornflowerblue;
+  border: 2px solid violet; }
+
+.divGrilla {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }

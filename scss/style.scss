@@ -1,3 +1,26 @@
 @import "./components/header";
 @import "./components/main";
 @import "./components/footer";
+
+
+%flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divGrilla {
+    background-color: cornflowerblue;
+    border: 2px solid violet;
+    @extend %flex;
+}
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.divGrilla {
+    @include flex (flex, space-between, center);
+}
