@@ -27,3 +27,107 @@
       transition: 1s; }
       .headerIndex nav ul li a:hover {
         font-size: 30px; }
+
+main .bolton {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, white, #d2ab9c);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main .bolton .bolton h2 {
+    font-size: 40px;
+    text-align: center; }
+  main .bolton .bolton div {
+    width: 400px;
+    height: 400px;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    transition: 2s; }
+    main .bolton .bolton div:hover {
+      transform: rotateY(180deg); }
+    main .bolton .bolton div .bolton div img {
+      width: 300px;
+      height: 300px; }
+    main .bolton .bolton div .bolton div p {
+      font-size: 20px;
+      font-weight: 900;
+      margin: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    main .bolton .bolton div .bolton div a {
+      text-decoration: none;
+      background-color: black;
+      padding: 5px;
+      color: whitesmoke;
+      letter-spacing: 2px; }
+
+main .winter .winter h2 {
+  margin-top: 20px;
+  font-size: 35px;
+  color: #287ec9;
+  text-align: center; }
+  main .winter .winter h2:hover {
+    color: darkviolet; }
+
+main .winter .divGrilla {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row; }
+  main .winter .divGrilla .divGrilla div {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    background-image: linear-gradient(to left, white, #cfcbea);
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in; }
+    main .winter .divGrilla .divGrilla div:hover {
+      width: 350px; }
+    main .winter .divGrilla .divGrilla div img {
+      width: 200px;
+      height: 400px;
+      margin: 10px; }
+    main .winter .divGrilla .divGrilla div h3 {
+      margin: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    main .winter .divGrilla .divGrilla div a {
+      text-decoration: none;
+      background-color: black;
+      padding: 5px;
+      color: whitesmoke;
+      transition: 1s; }
+      main .winter .divGrilla .divGrilla div a:hover {
+        background-color: cornflowerblue; }
+
+.footerIndex {
+  background-color: #1e1d1d;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footerIndex div .mapa {
+    width: 200px;
+    height: 70px;
+    margin: 10px; }
+  .footerIndex div a img {
+    width: 50px;
+    height: 50px; }
+  .footerIndex div ul {
+    list-style: none;
+    text-align: center; }
+    .footerIndex div ul li a {
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 5px; }
