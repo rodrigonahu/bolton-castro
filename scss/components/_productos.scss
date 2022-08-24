@@ -1,0 +1,113 @@
+.headerProduct {
+    background-color: rgba(245, 245, 245, 0.889);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    nav{
+        ul{
+            list-style: none;
+            padding: 10px 10px 10px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li{
+                a{
+                    text-decoration: none;
+                    color: rgb(158, 108, 71);
+                    font-size: 20px;
+                    font-family: 'Courier New', Courier, monospace;
+                    letter-spacing: 5px;
+                    font-weight: bold;
+                
+                    transition: 1s;
+                    &:hover{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+main {
+    .tituloProduct{
+        font-size: 30px;
+        text-align: center;
+    }
+    .seccionTarjetas{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        background-image: linear-gradient( to bottom, white, rgba(140, 189, 204, 0.889));
+        div{
+            div{
+                .card{
+                    img{
+                        width: 200px;
+                        height: 250px;
+                        margin: 20px;
+                        transition: 2s;
+                        &:hover{
+                            transform: translate(50px);
+                        }
+                    }
+                    div{
+                        p{
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            color: grey;
+                        }
+                        a{
+                            text-decoration: none;
+                            background-color: black;
+                            padding: 5px;
+                            color: whitesmoke;
+                            letter-spacing: 2px;
+                            transition: 1s;
+                            &:hover{
+                                background-color: cornflowerblue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footerProduct {
+    background-color: rgb(30, 29, 29);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    div{
+        .mapaProduct{
+            width: 200px;
+            height: 70px;
+            margin: 10px;
+        }
+    }
+    div{
+        a{
+            .redsocialProduct{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    div{
+        .ulProduct{
+            list-style: none;
+            text-align: center;
+            li{
+                .enlaceProduct{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    letter-spacing: 5px;
+                }
+            }
+        }
+    }
+}

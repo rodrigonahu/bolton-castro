@@ -1,0 +1,75 @@
+.headerContacto {
+    background-color: rgba(245, 245, 245, 0.889);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    nav{
+        ul{
+            list-style: none;
+            padding: 10px 10px 10px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li{
+                a{
+                    text-decoration: none;
+                    color: rgb(158, 108, 71);
+                    font-size: 20px;
+                    font-family: 'Courier New', Courier, monospace;
+                    letter-spacing: 5px;
+                    font-weight: bold;
+
+                    transition: 1s;
+                    &:hover{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mainContacto {
+    .formulario{
+        padding: 100px;
+        background-image: linear-gradient(to bottom, white, rgba(140, 189, 204, 0.889));
+    }
+}
+
+.footerContacto {
+    background-color: rgb(30, 29, 29);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    div{
+        .mapaContacto{
+            width: 200px;
+            height: 70px;
+            margin: 10px;
+        }
+    }
+    div{
+        a{
+            .redsocialContacto{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    div{
+        .ulContacto{
+            list-style: none;
+            text-align: center;
+            li{
+                .enlaceContacto{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    letter-spacing: 5px;
+                }
+            }
+        }
+    }
+}

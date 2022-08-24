@@ -1,0 +1,163 @@
+/*-------INDEX MEDIAS-----*/
+
+@media screen and (max-width:816px){
+    .headerIndex{
+        position:relative;
+    }
+}
+
+@media screen and (max-width:816px){
+    .headerIndex nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:874px){
+    .divGrilla{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:874px){
+    .footerIndex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:580px){
+    .footerIndex div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*-------CONTACTO MEDIAS-----*/
+
+@media screen and (max-width:816px){
+    .headerContacto nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:816px){
+    .headerContacto nav ul a{
+        color: gray;
+    }
+}
+
+@media screen and (max-width:874px){
+    .footerContacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:580px){
+    .footerContacto div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*-------ACERCADE MEDIAS-----*/
+
+@media screen and (max-width:816px){
+    .headerAcerca nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:816px){
+    .headerAcerca nav ul li a{
+        color: gray;
+    }
+}
+
+@media screen and (max-width:874px){
+    .footerAcerca{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:580px){
+    .footerAcerca div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*-------PRODUCTOS MEDIAS-----*/
+
+@media screen and (max-width:816px){
+    .headerProduct nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:816px){
+    .headerProduct nav ul li a{
+        color:  gray;
+    } 
+}
+
+@media screen and (max-width:874px){
+    .footerProduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:580px){
+    .footerProduct div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*-------SERVICIOS MEDIAS-----*/
+
+@media screen and (max-width:816px){
+    .headerServ nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+}
+
+@media screen and (max-width:816px){
+    .headerServ nav ul li a{
+        color: gray;
+    } 
+}
+
+@media screen and (max-width:874px){
+    .footerServ{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:580px){
+    .footerServ div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+}
+

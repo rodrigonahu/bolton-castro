@@ -1,9 +1,13 @@
-@import "./components/header";
-@import "./components/main";
-@import "./components/footer";
+@import "./components/index";
+@import "./components/contacto";
+@import "./components/acercade";
+@import "./components/productos";
+@import "./components/servicios";
+
+@import "./base/media";
 
 
-%flex{
+/*%flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,4 +27,4 @@
 
 .divGrilla {
     @include flex (flex, space-between, center);
-}
+}*/

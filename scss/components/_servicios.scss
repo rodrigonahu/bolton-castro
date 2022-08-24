@@ -1,0 +1,102 @@
+.headerServ {
+    background-color: rgba(245, 245, 245, 0.889);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    nav{
+        ul{
+            list-style: none;
+            padding: 10px 10px 10px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            li{
+                a{
+                    text-decoration: none;
+                    color: rgb(158, 108, 71);
+                    font-size: 20px;
+                    font-family: 'Courier New', Courier, monospace;
+                    letter-spacing: 5px;
+                    font-weight: bold;
+                
+                    transition: 1s;
+                    &:hover{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mainServ {
+    .sectionServ{
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        background-image: linear-gradient( to bottom, white, rgba(140, 189, 204, 0.889));
+        div{
+            ul{
+                list-style: none;
+                text-align: center;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 20px;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        letter-spacing: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .acordion{
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: lightblue;
+        .accordion accordion-flush{
+            background-color: lightblue;
+        }  
+    }
+}
+
+.footerServ {
+    background-color: rgb(30, 29, 29);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    div{
+        .mapaServ{
+            width: 200px;
+            height: 70px;
+            margin: 10px;
+        }
+    }
+    div{
+        a{
+            .redsocialServ{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    div{
+        .ulServ{
+            list-style: none;
+            text-align: center;
+            li{
+                .enlaceServ{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    font-size: 20px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    letter-spacing: 5px;
+                }
+            }
+        }
+    }
+}

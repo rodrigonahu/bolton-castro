@@ -28,10 +28,6 @@
       .headerIndex nav ul li a:hover {
         font-size: 30px; }
 
-.header {
-  background-color: #4b4bad;
-  position: static; }
-
 main .bolton {
   width: 100%;
   height: 100vh;
@@ -41,10 +37,10 @@ main .bolton {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  main .bolton .bolton h2 {
+  main .bolton h2 {
     font-size: 40px;
     text-align: center; }
-  main .bolton .bolton div {
+  main .bolton div {
     width: 400px;
     height: 400px;
     border: 1px solid white;
@@ -53,29 +49,29 @@ main .bolton {
     text-align: center;
     background-color: white;
     transition: 2s; }
-    main .bolton .bolton div:hover {
+    main .bolton div:hover {
       transform: rotateY(180deg); }
-    main .bolton .bolton div .bolton div img {
+    main .bolton div img {
       width: 300px;
       height: 300px; }
-    main .bolton .bolton div .bolton div p {
+    main .bolton div p {
       font-size: 20px;
       font-weight: 900;
       margin: 15px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-    main .bolton .bolton div .bolton div a {
+    main .bolton div a {
       text-decoration: none;
       background-color: black;
       padding: 5px;
       color: whitesmoke;
       letter-spacing: 2px; }
 
-main .winter .winter h2 {
+main .winter h2 {
   margin-top: 20px;
   font-size: 35px;
   color: #287ec9;
   text-align: center; }
-  main .winter .winter h2:hover {
+  main .winter h2:hover {
     color: darkviolet; }
 
 main .winter .divGrilla {
@@ -85,7 +81,7 @@ main .winter .divGrilla {
   padding: 50px;
   display: flex;
   flex-direction: row; }
-  main .winter .divGrilla .divGrilla div {
+  main .winter .divGrilla div {
     width: 300px;
     height: 500px;
     margin: 20px;
@@ -95,23 +91,37 @@ main .winter .divGrilla {
     transition-property: width;
     transition-duration: 1s;
     transition-timing-function: ease-in; }
-    main .winter .divGrilla .divGrilla div:hover {
+    main .winter .divGrilla div:hover {
       width: 350px; }
-    main .winter .divGrilla .divGrilla div img {
+    main .winter .divGrilla div img {
       width: 200px;
       height: 400px;
       margin: 10px; }
-    main .winter .divGrilla .divGrilla div h3 {
+    main .winter .divGrilla div h3 {
       margin: 15px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-    main .winter .divGrilla .divGrilla div a {
+    main .winter .divGrilla div a {
       text-decoration: none;
       background-color: black;
       padding: 5px;
       color: whitesmoke;
       transition: 1s; }
-      main .winter .divGrilla .divGrilla div a:hover {
+      main .winter .divGrilla div a:hover {
         background-color: cornflowerblue; }
+
+main .carusel {
+  background-color: lightblue; }
+  main .carusel .carousel-inner div img {
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+
+main .botonFixed img {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px; }
 
 .footerIndex {
   background-color: #1e1d1d;
@@ -123,7 +133,7 @@ main .winter .divGrilla {
     width: 200px;
     height: 70px;
     margin: 10px; }
-  .footerIndex div a img {
+  .footerIndex div a .redSocial {
     width: 50px;
     height: 50px; }
   .footerIndex div ul {
@@ -136,16 +146,403 @@ main .winter .divGrilla {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       letter-spacing: 5px; }
 
-.divGrilla {
+.headerContacto {
+  background-color: rgba(245, 245, 245, 0.889);
+  width: 100%;
+  position: sticky;
+  top: 0; }
+  .headerContacto nav ul {
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .headerContacto nav ul li a {
+      text-decoration: none;
+      color: #9e6c47;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      letter-spacing: 5px;
+      font-weight: bold;
+      transition: 1s; }
+      .headerContacto nav ul li a:hover {
+        font-size: 30px; }
+
+.mainContacto .formulario {
+  padding: 100px;
+  background-image: linear-gradient(to bottom, white, rgba(140, 189, 204, 0.889)); }
+
+.footerContacto {
+  background-color: #1e1d1d;
+  padding: 30px;
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  flex-direction: row;
+  justify-content: space-between; }
+  .footerContacto div .mapaContacto {
+    width: 200px;
+    height: 70px;
+    margin: 10px; }
+  .footerContacto div a .redsocialContacto {
+    width: 50px;
+    height: 50px; }
+  .footerContacto div .ulContacto {
+    list-style: none;
+    text-align: center; }
+    .footerContacto div .ulContacto li .enlaceContacto {
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 5px; }
+
+.headerAcerca {
+  background-color: rgba(245, 245, 245, 0.889);
+  width: 100%;
+  position: sticky;
+  top: 0; }
+  .headerAcerca nav ul {
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .headerAcerca nav ul li a {
+      text-decoration: none;
+      color: #9e6c47;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      letter-spacing: 5px;
+      font-weight: bold;
+      transition: 1s; }
+      .headerAcerca nav ul li a:hover {
+        font-size: 30px; }
+
+.mainAcerca {
+  background-image: linear-gradient(to bottom, white, rgba(140, 189, 204, 0.889)); }
+  .mainAcerca .seccion-descripcion {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainAcerca .seccion-descripcion div .card-body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: gray; }
+      .mainAcerca .seccion-descripcion div .card-body .card-title {
+        color: black; }
+      .mainAcerca .seccion-descripcion div .card-body .card-text:hover {
+        color: darkviolet; }
+  .mainAcerca .container-fluid {
+    padding: 30px; }
+    .mainAcerca .container-fluid div div .card-text:hover {
+      color: darkviolet; }
+    .mainAcerca .container-fluid div div .card-text:hover {
+      color: darkviolet; }
+    .mainAcerca .container-fluid div div img {
+      width: 300px;
+      height: 300px; }
+
+.footerAcerca {
+  background-color: #1e1d1d;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footerAcerca div .mapaAcerca {
+    width: 200px;
+    height: 70px;
+    margin: 10px; }
+  .footerAcerca div a .redsocialAcerca {
+    width: 50px;
+    height: 50px; }
+  .footerAcerca div .ulAcerca {
+    list-style: none;
+    text-align: center; }
+    .footerAcerca div .ulAcerca li .enlaceAcerca {
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 5px; }
+
+.headerProduct {
+  background-color: rgba(245, 245, 245, 0.889);
+  width: 100%;
+  position: sticky;
+  top: 0; }
+  .headerProduct nav ul {
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .headerProduct nav ul li a {
+      text-decoration: none;
+      color: #9e6c47;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      letter-spacing: 5px;
+      font-weight: bold;
+      transition: 1s; }
+      .headerProduct nav ul li a:hover {
+        font-size: 30px; }
+
+main .tituloProduct {
+  font-size: 30px;
+  text-align: center; }
+
+main .seccionTarjetas {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background-image: linear-gradient(to bottom, white, rgba(140, 189, 204, 0.889)); }
+  main .seccionTarjetas div div .card img {
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    transition: 2s; }
+    main .seccionTarjetas div div .card img:hover {
+      transform: translate(50px); }
+  main .seccionTarjetas div div .card div p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey; }
+  main .seccionTarjetas div div .card div a {
+    text-decoration: none;
+    background-color: black;
+    padding: 5px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    transition: 1s; }
+    main .seccionTarjetas div div .card div a:hover {
+      background-color: cornflowerblue; }
+
+.footerProduct {
+  background-color: #1e1d1d;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footerProduct div .mapaProduct {
+    width: 200px;
+    height: 70px;
+    margin: 10px; }
+  .footerProduct div a .redsocialProduct {
+    width: 50px;
+    height: 50px; }
+  .footerProduct div .ulProduct {
+    list-style: none;
+    text-align: center; }
+    .footerProduct div .ulProduct li .enlaceProduct {
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 5px; }
+
+.headerServ {
+  background-color: rgba(245, 245, 245, 0.889);
+  width: 100%;
+  position: sticky;
+  top: 0; }
+  .headerServ nav ul {
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .headerServ nav ul li a {
+      text-decoration: none;
+      color: #9e6c47;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      letter-spacing: 5px;
+      font-weight: bold;
+      transition: 1s; }
+      .headerServ nav ul li a:hover {
+        font-size: 30px; }
+
+.mainServ .sectionServ {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  background-image: linear-gradient(to bottom, white, rgba(140, 189, 204, 0.889)); }
+  .mainServ .sectionServ div ul {
+    list-style: none;
+    text-align: center; }
+    .mainServ .sectionServ div ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 5px; }
+
+.mainServ .acordion {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: lightblue; }
+  .mainServ .acordion .accordion accordion-flush {
+    background-color: lightblue; }
+
+.footerServ {
+  background-color: #1e1d1d;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .footerServ div .mapaServ {
+    width: 200px;
+    height: 70px;
+    margin: 10px; }
+  .footerServ div a .redsocialServ {
+    width: 50px;
+    height: 50px; }
+  .footerServ div .ulServ {
+    list-style: none;
+    text-align: center; }
+    .footerServ div .ulServ li .enlaceServ {
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 5px; }
+
+/*-------INDEX MEDIAS-----*/
+@media screen and (max-width: 816px) {
+  .headerIndex {
+    position: relative; } }
+
+@media screen and (max-width: 816px) {
+  .headerIndex nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 874px) {
+  .divGrilla {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 874px) {
+  .footerIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 580px) {
+  .footerIndex div:nth-child(2) {
+    display: flex;
+    flex-direction: column; } }
+
+/*-------CONTACTO MEDIAS-----*/
+@media screen and (max-width: 816px) {
+  .headerContacto nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 816px) {
+  .headerContacto nav ul a {
+    color: gray; } }
+
+@media screen and (max-width: 874px) {
+  .footerContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 580px) {
+  .footerContacto div:nth-child(2) {
+    display: flex;
+    flex-direction: column; } }
+
+/*-------ACERCADE MEDIAS-----*/
+@media screen and (max-width: 816px) {
+  .headerAcerca nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 816px) {
+  .headerAcerca nav ul li a {
+    color: gray; } }
+
+@media screen and (max-width: 874px) {
+  .footerAcerca {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 580px) {
+  .footerAcerca div:nth-child(2) {
+    display: flex;
+    flex-direction: column; } }
+
+/*-------PRODUCTOS MEDIAS-----*/
+@media screen and (max-width: 816px) {
+  .headerProduct nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 816px) {
+  .headerProduct nav ul li a {
+    color: gray; } }
+
+@media screen and (max-width: 874px) {
+  .footerProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 580px) {
+  .footerProduct div:nth-child(2) {
+    display: flex;
+    flex-direction: column; } }
+
+/*-------SERVICIOS MEDIAS-----*/
+@media screen and (max-width: 816px) {
+  .headerServ nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 816px) {
+  .headerServ nav ul li a {
+    color: gray; } }
+
+@media screen and (max-width: 874px) {
+  .footerServ {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 580px) {
+  .footerServ div:nth-child(2) {
+    display: flex;
+    flex-direction: column; } }
+
+/*%flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .divGrilla {
-  background-color: cornflowerblue;
-  border: 2px solid violet; }
+    background-color: cornflowerblue;
+    border: 2px solid violet;
+    @extend %flex;
+}
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
 
 .divGrilla {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
+    @include flex (flex, space-between, center);
+}*/
