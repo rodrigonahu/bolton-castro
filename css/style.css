@@ -79,8 +79,7 @@ main .winter .divGrilla {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 50px;
-  display: flex;
-  flex-direction: row; }
+  display: flex; }
   main .winter .divGrilla div {
     width: 300px;
     height: 500px;
@@ -420,7 +419,7 @@ main .seccionTarjetas {
     flex-direction: column;
     align-items: center; } }
 
-@media screen and (max-width: 874px) {
+@media screen and (max-width: 850px) {
   .divGrilla {
     display: flex;
     flex-direction: column;
@@ -525,24 +524,16 @@ main .seccionTarjetas {
     display: flex;
     flex-direction: column; } }
 
-/*%flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+.divGrilla {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 .divGrilla {
-    background-color: cornflowerblue;
-    border: 2px solid violet;
-    @extend %flex;
-}
-
-@mixin flex ($flex, $justify, $align){
-    display: $flex;
-    justify-content: $justify;
-    align-items: $align;
-}
+  background-color: cornflowerblue;
+  border: 2px solid violet; }
 
 .divGrilla {
-    @include flex (flex, space-between, center);
-}*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
