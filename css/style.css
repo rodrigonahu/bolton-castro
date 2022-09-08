@@ -6,7 +6,9 @@
   .headerIndex div {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cfcbea; }
     .headerIndex div .logo {
       width: 100px;
       height: 100px; }
@@ -379,9 +381,11 @@ main .seccionTarjetas {
     .mainServ .sectionServ div ul li a {
       text-decoration: none;
       color: black;
-      font-size: 20px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 25px;
+      font-style: italic;
       letter-spacing: 5px; }
+      .mainServ .sectionServ div ul li a:hover {
+        color: darkviolet; }
 
 .mainServ .acordion {
   padding-right: 50px;

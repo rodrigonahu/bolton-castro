@@ -43,9 +43,12 @@
                     a{
                         text-decoration: none;
                         color: black;
-                        font-size: 20px;
-                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 25px;
+                        font-style: italic;
                         letter-spacing: 5px;
+                        &:hover{
+                            color:darkviolet;
+                        }
                     }
                 }
             }
